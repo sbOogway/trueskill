@@ -54,7 +54,7 @@ class Gaussian(object):
 
     @property
     def sigma(self):
-        """A property which returns the the square root of the variance."""
+        """A property which returns the square root of the variance."""
         return math.sqrt(1 / self.pi) if self.pi else inf
 
     def __mul__(self, other):
